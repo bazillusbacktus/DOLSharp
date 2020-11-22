@@ -17,21 +17,18 @@
  *
  */
 
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Reflection;
-using System.Data;
-using System.Data.Common;
-using DataTable = System.Data.DataTable;
-
 using DOL.Database.Connection;
 using DOL.Database.Transaction;
-using IsolationLevel = DOL.Database.Transaction.IsolationLevel;
-
-using System.Data.SQLite;
-
 using log4net;
+using System;
+using System.Collections.Generic;
+using System.Data;
+using System.Data.Common;
+using System.Data.SQLite;
+using System.Linq;
+using System.Reflection;
+using DataTable = System.Data.DataTable;
+using IsolationLevel = DOL.Database.Transaction.IsolationLevel;
 
 namespace DOL.Database.Handlers
 {

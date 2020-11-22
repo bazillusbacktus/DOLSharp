@@ -302,7 +302,7 @@ namespace DOL
 
 				try
 				{
-					var target = current._weakRef?.Target;
+					var target = current._weakRef.Target;
 					if (current._weakRef == null)
 					{
 						current._method.Invoke(null, args);
